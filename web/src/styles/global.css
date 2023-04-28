@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --primary: #269591;
+    --secondary: #FA643D;
+    --branco: #ffffff;
+    --cinza: #6e6e6e;
+    --green: #1dbb3f;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Open Sans';
+    letter-spacing: -0.03em;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='date'] {
+    font-size: 18px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='date'],
+input[type='text']:disabled,
+input[type='email']:disabled,
+input[type='password']:disabled,
+input[type='date']:disabled {
+    background: #f6f5f5;
+    border: 0.5px solid #dcdcdc;
+    outline: none;
+    color: #626264;
+}
+
+
+.btn {
+    width: 100%;
+    font-size: 18px;
+}
+
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}
+
+.btn-secondary,
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary:disabled {
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary)
+}
+
+.btn-secondary:hover {
+    background-color: var(--green) !important;
+    border-color: var(--green);
+    transition: all 0.33s ease-in-out;
+}
+
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+h2 {
+    color: var(--cinza);
+    font-weight: bold;
+}
+
+.box{
+    background-color: white;
+    box-shadow: 0px 0px 11px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
+}
