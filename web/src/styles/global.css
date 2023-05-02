@@ -43,6 +43,20 @@ input[type='date']:disabled {
     font-size: 18px;
 }
 
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:disabled {
+    background-color: var(--primary) !important;
+    border-color: var(--primary)
+}
+
+.btn-primary:hover {
+    background-color: var(--green) !important;
+    border-color: var(--green);
+    transition: all 0.55s ease-in-out;
+}
+
 .bg-secondary {
     background-color: var(--secondary) !important;
 }
