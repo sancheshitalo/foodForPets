@@ -21,3 +21,14 @@
     vertical-align: middle;
     color: #626264;
 }
+
+.frete {
+    background-color: var(--primary);
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+.petshop-image {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}

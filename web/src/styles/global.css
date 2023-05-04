@@ -8,6 +8,8 @@
     --green: #1dbb3f;
 }
 
+/*   COR EM RGB DA PRIMARY 38, 149, 145   */
+
 html,
 body {
     height: 100%;
@@ -39,7 +41,7 @@ input[type='date']:disabled {
 
 
 .btn {
-    width: 100%;
+    width: 17%;
     font-size: 18px;
 }
 
@@ -91,4 +93,8 @@ h2 {
     border-radius: 5px;
     display: inline-block;
     padding: 50px;
+}
+
+.badge-primary {
+    background-color: var(--primary);
 }

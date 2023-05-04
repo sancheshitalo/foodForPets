@@ -1,0 +1,36 @@
+.product {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.product img {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 20px;
+    max-height: 210px;
+    width: 100%;
+}
+
+.product .badge {
+    margin-bottom: 0;
+    background-color: rgba(38, 149, 145, 0.15);
+    color: rgba(38, 149, 145, 0.8);
+}
+
+/*   COR EM RGB DA PRIMARY 38, 149, 145   */
+
+.product small {
+    margin-top: 0;
+    line-height: 15px;
+    display: block; 
+}
+
+.product button {
+    position: absolute;
+    right: 30px;
+    font-size: 25px;
+    margin-top: 155px;
+    padding: 1px 12px;
+}
+
