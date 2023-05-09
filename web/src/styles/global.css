@@ -45,6 +45,10 @@ input[type='date']:disabled {
     font-size: 18px;
 }
 
+.btn-secondary.rounded-circle {
+    padding: 5px 14px;
+}
+
 .btn-primary,
 .btn-primary:focus,
 .btn-primary:active,

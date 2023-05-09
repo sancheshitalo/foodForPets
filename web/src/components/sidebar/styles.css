@@ -1,0 +1,12 @@
+.sidebar-button {
+    width: 100%;
+    height: 75%;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar .products {
+    overflow: auto;
+    align-content: flex-start;
+}
+
