@@ -6,11 +6,12 @@ import Sidebar from './components/sidebar';
 import Cadastro from './pages/cadastro';
 import Checkout from './pages/checkout';
 import Petshop from './pages/petshop';
+import Home from './pages/home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Sidebar />
-    <Petshop />
+    <Home />
   </React.StrictMode>
 );
