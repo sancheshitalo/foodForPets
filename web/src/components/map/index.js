@@ -1,22 +1,31 @@
-import './styles.css';
-import GoogleMapReact from 'google-map-react';
+import "./styles.css";
+import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
+import Marker from "../marker";
 
 const Map = () => {
-    console.log('teste');
-    return (
-        <div className="container-map">
-            <GoogleMapReact
-                bootstrapURLKeys={{ key:"AIzaSyCWBxlNpEtAk1yi9lgZ5WeW89b5pdva0Ek"}}
-                center={{
-                     lat: -23.561684,
-                     lng: -46.625378,
-                }}
-                defaultZoom={15}
-            ></GoogleMapReact>
-        </div>
-    )
-}
+  const { isLoaded } = useJsApiLoader({
+    id: "google-map-script",
+    googleMapsApiKey: "AIzaSyBsOEj0jVpI8ho7rEny-sM4KyYJb96qc1w",
+  });
 
-console.log('teste1');
+  return (
+    <div className="container-map">
+      {isLoaded ? (
+        <GoogleMap
+          mapContainerStyle={{ width: "100%", height: "100%" }}
+          center={{
+            lat: -23.4507771,
+            lng: -51.9228019,
+          }}
+          zoom={15}
+        >
+          <Marker lat={-23.4507771} lng={-51.9228019} />
+        </GoogleMap>
+      ) : (
+        <></>
+      )}
+    </div>
+  );
+};
 
 export default Map;
