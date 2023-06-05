@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "PEDIGREE",
+    "logo": "",
+    "categoria": "",
+    "destaque": 1,
+    "location": {
+      "lat": -23.561684,
+      "lng": -46.625378
+    },
+    "produtos": [
+      {
+        "nome": "PEDIGREE FILHOTES RAÇAS MÉDIAS E GRANDES 1 KG",
+        "capa": "",
+        "preco": 17.8,
+        "avaliacoes": 4.5
+      },
+      {
+        "nome": "PEDIGREE FILHOTES RAÇAS MÉDIAS E GRANDES 10 KG",
+        "capa": "",
+        "preco": 64.9,
+        "avaliacoes": 4.7
+      },
+      {
+        "nome": "GOLDEN ADULTOS RAÇAS MÉDIAS E GRANDES 15 KG",
+        "capa": "",
+        "preco": 125.9,
+        "avaliacoes": 4.9
+      }
+    ]
+  }
+]
